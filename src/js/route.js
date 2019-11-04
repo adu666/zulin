@@ -3,6 +3,10 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 import index from "../pages/index.vue"
+import introduction from "../pages/introduction.vue"
+import serviceitem from "../pages/serviceitem.vue"
+import currentaccount from "../pages/currentaccount.vue"
+import contactus from "../pages/contactus.vue"
 // 创建路由实例
 const routes = [
     {
@@ -11,6 +15,34 @@ const routes = [
         meta:
         {
             title: '首页'
+        }
+    },
+    {
+        path: "/introduction",
+        component: introduction,
+        meta: {
+            title: '公司简介'
+        }
+    },
+    {
+        path: "/serviceitem",
+        component: serviceitem,
+        meta: {
+            title: '服务项目'
+        }
+    },
+    {
+        path: "/currentaccount",
+        component: currentaccount,
+        meta: {
+            title: '经营项目'
+        }
+    },
+    {
+        path: "/contactus",
+        component: contactus,
+        meta: {
+            title: '联系我们'
         }
     }
 ]

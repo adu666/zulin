@@ -41,22 +41,22 @@ export default {
         {
           cls: "jianjie",
           name: "公司简介",
-          push: "/"
+          push: "/introduction"
         },
         {
           cla: "fuwu",
           name: "服务项目",
-          push: "/"
+          push: "/serviceitem"
         },
         {
           cla: "fanwei",
           name: "经营范围",
-          push: "/"
+          push: "/currentaccount"
         },
         {
           cla: "lianxi",
           name: "联系我们",
-          push: ""
+          push: "/contactus"
         }
       ]
     };
